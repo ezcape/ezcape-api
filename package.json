@@ -1,0 +1,28 @@
+{
+  "name": "ezcape-api",
+  "version": "0.0.1",
+  "description": "A Service API that will handle user's requests",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezcape/ezcape-api.git"
+  },
+  "keywords": [
+    "api",
+    "service",
+    "ezcape",
+    "minecraft"
+  ],
+  "author": "majorek31 <github.com/majorek31>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezcape/ezcape-api/issues"
+  },
+  "homepage": "https://github.com/ezcape/ezcape-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
