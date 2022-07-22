@@ -12,11 +12,11 @@ router.get('/capes/:username.png', async (req, res) => {
         });   
         if (!user)
             return res.sendStatus(404);
+        return res.redirect(`/assets/cape/${user.capeName}.png`);
     } catch (error) {
         console.error(error)
         return res.sendStatus(500);
     }
-    return res.sendStatus(404);
 });
 router.get('/users/:username.cfg', async (req, res) => {
     res.json({
